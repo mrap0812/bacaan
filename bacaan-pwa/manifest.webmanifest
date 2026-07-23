@@ -1,0 +1,36 @@
+{
+  "name": "Bacaan — Sistem Membaca Aktif",
+  "short_name": "Bacaan",
+  "description": "Pelacak membaca aktif: SQ3R, active recall, tinjauan berjeda, dan uji Feynman. Berjalan offline, data tersimpan di perangkat Anda.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#F5F2EC",
+  "theme_color": "#2B3A67",
+  "lang": "id",
+  "dir": "ltr",
+  "categories": ["education", "productivity", "books"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-192-maskable.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Tinjau Hari Ini",
+      "short_name": "Tinjau",
+      "description": "Buka antrean kartu ingatan yang jatuh tempo",
+      "url": "./index.html?view=review",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Planner",
+      "short_name": "Planner",
+      "description": "Catat sesi membaca dan timer fokus",
+      "url": "./index.html?view=planner",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
